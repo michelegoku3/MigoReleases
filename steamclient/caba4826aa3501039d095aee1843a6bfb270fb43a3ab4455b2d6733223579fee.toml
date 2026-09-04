@@ -1,0 +1,204 @@
+# Made by migo3 at 04/09/2026 21:02:20 for Steam 1788400362 build
+# SteamPatternForge generated  sha256=caba4826aa3501039d095aee1843a6bfb270fb43a3ab4455b2d6733223579fee
+
+[0x023CE50D]
+name = "BBuildAndAsyncSendFrame"
+rva = "0xd311d0"
+sig = "48 8B C4 55 48 8D 68 A1 48 81 EC C0 00 00 00 48 89 70 18"
+
+[0xC216BDB6]
+name = "RecvPkt"
+rva = "0x5a8a10"
+sig = "48 8B C4 55 48 8D A8 98 F6 FF FF 48 81 EC 60 0A 00 00"
+
+[0x8128F34A]
+name = "IPCProcessMessage"
+rva = "0x88dac0"
+sig = "48 89 5C 24 18 48 89 6C 24 20 57 41 54 41 55 41 56 41 57 48 83 EC 30"
+
+[0xF92903EF]
+name = "GetPipeClient"
+rva = "0x88e4b0"
+sig = "85 D2 74 ?? 44 0F B7 CA 44 3B 49 60 73 ?? 48 8B 41 40"
+
+[0x687ABEB7]
+name = "SendCallbackToPipe"
+rva = "0x983b90"
+sig = "48 89 5C 24 08 57 48 83 EC 30 41 8B D9 41 8B F8"
+
+[0x3E22FA42]
+name = "GetAppIDForCurrentPipe"
+rva = "0x97ea80"
+sig = "8B 81 30 0D 00 00 83 F8 FF 74 ?? 44 8B 89 D8 00 00 00"
+
+[0xC9A1E1CB]
+name = "CheckAppOwnership"
+rva = "0x9ce9e0"
+sig = "48 8B C4 89 50 10 48 89 48 08 55 53 48 8D 68 D8"
+
+[0x37791AAC]
+name = "BIsDlcEnabled"
+rva = "0x731820"
+sig = "40 55 53 56 57 41 56 48 8B EC 48 83 EC 60 4D 8B F1 41 8B F8 8B DA 48 8B F1 45 33 C9 48 8D 4D D0 BA 40 00 00 00 41 B8 20 00 00 00 E8 ?? ?? ?? ?? B2 01 48 8D 4D D0 E8 ?? ?? ?? ?? B2 11 48 8D 4D D0"
+
+[0xA539B75F]
+name = "BUpdateAppOwnershipTicket"
+rva = "0x73a900"
+sig = "48 89 5C 24 20 55 56 57 48 8B EC 48 83 EC 60 41 0F B6 F8 8B DA 48 8B F1 BA 40 00 00 00 41 B8 20 00 00 00 48 8D 4D D0 45 33 C9 E8 ?? ?? ?? ?? B2 01 48 8D 4D D0 E8 ?? ?? ?? ?? B2 01 48 8D 4D D0 E8 ?? ?? ?? ?? 8B 46 08 48 8D 55 30 41 B8 04 00 00 00 89 45 30 48 8D 4D D0 E8 ?? ?? ?? ?? 41 B8 04 00 00 00 C7 45 30 18 4F DD CE 48 8D 55 30 48 8D 4D D0 E8 ?? ?? ?? ?? 41 B8 04 00 00 00 89 5D 30"
+
+[0x4697285F]
+name = "BUpdateLicenses"
+rva = "0xced90"
+sig = "40 53 48 83 EC 20 48 8B 05 ?? ?? ?? ?? 48 8B D9 C7 44 24 38 00 00 80 BF"
+
+[0x4D2E7353]
+name = "IsAppDlcInstalled"
+rva = "0x836ca0"
+sig = "48 89 5C 24 20 55 56 57 48 8B EC 48 83 EC 60 41 8B F8 8B DA 48 8B F1 BA 40 00 00 00 41 B8 20 00 00 00 48 8D 4D D0 45 33 C9 E8 ?? ?? ?? ?? B2 01 48 8D 4D D0 E8 ?? ?? ?? ?? B2 11 48 8D 4D D0 E8 ?? ?? ?? ?? 8B 46 08 48 8D 55 20 41 B8 04 00 00 00 89 45 20 48 8D 4D D0 E8 ?? ?? ?? ?? 41 B8 04 00 00 00 C7 45 20 70 8C BD CD 48 8D 55 20 48 8D 4D D0 E8 ?? ?? ?? ?? 41 B8 04 00 00 00 89 5D 20"
+
+[0x5BCB2A34]
+name = "IsUserSubscribedAppInTicket"
+rva = "0x83b560"
+sig = "40 53 56 57 48 83 EC 60 41 8B F8 48 8B DA 48 8B F1 BA 40 00 00 00 41 B8 20 00 00 00 48 8D 4C 24 30 45 33 C9 E8 ?? ?? ?? ?? B2 01 48 8D 4C 24 30 E8 ?? ?? ?? ?? B2 01 48 8D 4C 24 30 E8 ?? ?? ?? ?? 8B 46 08 48 8D 94 24 80 00 00 00 41 B8 04 00 00 00 89 84 24 80 00 00 00 48 8D 4C 24 30 E8 ?? ?? ?? ?? 41 B8 04 00 00 00 C7 84 24 80 00 00 00 78 18 45 93 48 8D 94 24 80 00 00 00 48 8D 4C 24 30"
+
+[0x21B65A0E]
+name = "GetSubscribedApps"
+rva = "0x792860"
+sig = "48 89 5C 24 10 55 56 57 41 56 41 57 48 8B EC 48 83 EC 60 41 0F B6 D9"
+
+[0x865CFC06]
+name = "RequiresLegacyCDKey"
+rva = "0x8526f0"
+sig = "48 89 5C 24 18 55 56 57 48 83 EC 60 49 8B E8 8B DA 48 8B F1 BA 40 00 00 00 41 B8 20 00 00 00 48 8D 4C 24 30 45 33 C9 E8 ?? ?? ?? ?? B2 01 48 8D 4C 24 30 E8 ?? ?? ?? ?? B2 01 48 8D 4C 24 30 E8 ?? ?? ?? ??"
+
+[0xD50289B6]
+name = "ProcessPendingLicenseUpdates"
+rva = "0x9c4fd0"
+sig = "41 56 41 57 48 83 EC 38 83 B9 98 24 00 00 00 B8 B0 23 00 00"
+
+[0x4FE13BB5]
+name = "MarkLicenseAsChanged"
+rva = "0x9db490"
+sig = "48 89 5C 24 20 89 54 24 10 55 56 57 48 83 EC 20"
+
+[0x6CF698B5]
+name = "GetPackageInfo"
+rva = "0x4b67d0"
+sig = "48 89 5C 24 18 89 54 24 10 55 56 57 48 83 EC 20 44 8B 49 20"
+
+[0xDB5900AC]
+name = "LoadPackage"
+rva = "0x4b1a10"
+sig = "44 89 44 24 18 53 55 56 57 41 55 41 56 41 57 48 81 EC 20 01 00 00"
+
+[0x82529126]
+name = "OptedInMask"
+rva = "0x5effe0"
+sig = "89 54 24 10 55 53 56 57 41 55 41 56 48 8D AC 24 38 FF FF FF"
+
+[0x440466C9]
+name = "GetDecryptionKey"
+rva = "0x9d1b80"
+sig = "40 53 55 56 57 48 81 EC 48 01 00 00 8B FA 48 8B E9"
+
+# WARN: LoadDepotDecryptionKey aliases ConfigStoreGetBinary (same RVA; publisher mislabel or merged function)
+[0xE1290AF1]
+name = "LoadDepotDecryptionKey"
+rva = "0x5c5f50"
+sig = "40 53 55 56 57 48 83 EC 38 48 63 FA 49 8B E9 8B D7"
+
+# WARN: ConfigStoreGetBinary aliases LoadDepotDecryptionKey (same RVA; publisher mislabel or merged function)
+[0xDBD1B9D6]
+name = "ConfigStoreGetBinary"
+rva = "0x5c5f50"
+sig = "40 53 55 56 57 48 83 EC 38 48 63 FA 49 8B E9 8B D7"
+
+[0x61D1BD1F]
+name = "BuildDepotDependency"
+rva = "0x4c3820"
+sig = "48 8B C4 4C 89 48 20 89 50 10 48 89 48 08 55 57"
+
+[0x169A060B]
+name = "GetAppDataFromAppInfo"
+rva = "0x4b51f0"
+sig = "40 53 55 56 57 41 56 41 57 48 81 EC 78 01 00 00"
+
+[0x41AE9D9A]
+name = "GetOrAddAppData"
+rva = "0x4b6530"
+sig = "48 83 EC 58 48 8B 05 ?? ?? ?? ?? 48 89 5C 24 68 48 89 6C 24 70"
+
+[0x6E82CEEF]
+name = "IsCloudEnabledForApp"
+rva = "0x837940"
+sig = "40 53 56 57 48 83 EC 60 8B DA 48 8B F9 BA 40 00 00 00 48 8D 4C 24 30 45 33 C9 41 B8 20 00 00 00 E8 ?? ?? ?? ?? B2 01 48 8D 4C 24 30 E8 ?? ?? ?? ?? B2 0D 48 8D 4C 24 30 E8 ?? ?? ?? ?? 8B 47 08 48 8D 94 24 90 00 00 00 41 B8 04 00 00 00 89 84 24 90 00 00 00 48 8D 4C 24 30 E8 ?? ?? ?? ?? 41 B8 04 00 00 00 C7 84 24 90 00 00 00 9A 27 A7 88 48 8D 94 24 90 00 00 00 48 8D 4C 24 30 E8 ?? ?? ?? ??"
+
+[0xD6059ECD]
+name = "IsCloudEnabledForAccount"
+rva = "0x8377c0"
+sig = "40 53 56 57 48 83 EC 60 48 8B F9 45 33 C9 48 8D 4C 24 30 BA 40 00 00 00 41 B8 20 00 00 00 E8 ?? ?? ?? ?? B2 01 48 8D 4C 24 30 E8 ?? ?? ?? ?? B2 0D 48 8D 4C 24 30 E8 ?? ?? ?? ?? 8B 47 08 48 8D 94 24 90 00 00 00"
+
+[0x5E7F0FEF]
+name = "SetCloudEnabledForApp"
+rva = "0x85de30"
+sig = "48 89 5C 24 08 48 89 74 24 20 57 48 83 EC 60 41 0F B6 F8 8B DA 48 8B F1 BA 40 00 00 00 41 B8 20 00 00 00 48 8D 4C 24 30 45 33 C9 E8 ?? ?? ?? ?? B2 01 48 8D 4C 24 30 E8 ?? ?? ?? ?? B2 0D 48 8D 4C 24 30 E8 ?? ?? ?? ?? 8B 46 08 48 8D 94 24 80 00 00 00 41 B8 04 00 00 00 89 84 24 80 00 00 00 48 8D 4C 24 30 E8 ?? ?? ?? ?? 41 B8 04 00 00 00 C7 84 24 80 00 00 00 0C DA AA 2E 48 8D 94 24 80 00 00 00"
+
+[0x43E8816C]
+name = "CloseAppCloud"
+rva = "0xa30f50"
+sig = "48 89 5C 24 10 57 48 83 EC 30 8B FA 48 8B D9 85 D2"
+
+[0xA7B31119]
+name = "GetRemoteStorageSyncState"
+rva = "0x78b540"
+sig = "40 53 56 57 48 83 EC 60 8B DA 48 8B F9 BA 40 00 00 00 48 8D 4C 24 30 45 33 C9 41 B8 20 00 00 00 E8 ?? ?? ?? ?? B2 01 48 8D 4C 24 30 E8 ?? ?? ?? ?? B2 0D 48 8D 4C 24 30 E8 ?? ?? ?? ?? 8B 47 08 48 8D 94 24 80 00 00 00 41 B8 04 00 00 00 89 84 24 80 00 00 00 48 8D 4C 24 30 E8 ?? ?? ?? ?? 41 B8 04 00 00 00 C7 84 24 80 00 00 00 B5 30 03 0A 48 8D 94 24 80 00 00 00 48 8D 4C 24 30 E8 ?? ?? ?? ??"
+
+[0xC7A1C044]
+name = "EvaluateRemoteStorageSyncState"
+rva = "0x74fa50"
+sig = "48 89 5C 24 08 48 89 74 24 20 57 48 83 EC 60 41 0F B6 F8 8B DA 48 8B F1 BA 40 00 00 00 41 B8 20 00 00 00 48 8D 4C 24 30 45 33 C9 E8 ?? ?? ?? ?? B2 01 48 8D 4C 24 30 E8 ?? ?? ?? ?? B2 0D 48 8D 4C 24 30 E8 ?? ?? ?? ?? 8B 46 08 48 8D 94 24 80 00 00 00 41 B8 04 00 00 00 89 84 24 80 00 00 00 48 8D 4C 24 30 E8 ?? ?? ?? ?? 41 B8 04 00 00 00 C7 84 24 80 00 00 00 AE FD E1 58 48 8D 94 24 80 00 00 00"
+
+[0x7904B2EE]
+name = "RunAutoCloudOnAppLaunch"
+rva = "0x854be0"
+sig = "48 89 5C 24 18 48 89 74 24 20 57 48 83 EC 60 8B DA 48 8B F9 BA 40 00 00 00 48 8D 4C 24 30 45 33 C9 41 B8 20 00 00 00 E8 ?? ?? ?? ?? B2 01 48 8D 4C 24 30 E8 ?? ?? ?? ?? B2 0D 48 8D 4C 24 30 E8 ?? ?? ?? ?? 8B 47 08 48 8D 54 24 78 41 B8 04 00 00 00 89 44 24 78 48 8D 4C 24 30 E8 ?? ?? ?? ?? 41 B8 04 00 00 00 C7 44 24 78 EB 31 22 B8 48 8D 54 24 78 48 8D 4C 24 30 E8 ?? ?? ?? ?? 41 B8 04 00 00 00"
+
+[0x10AE4718]
+name = "RunAutoCloudOnAppExit"
+rva = "0x854a70"
+sig = "48 89 5C 24 18 48 89 74 24 20 57 48 83 EC 60 8B DA 48 8B F9 BA 40 00 00 00 48 8D 4C 24 30 45 33 C9 41 B8 20 00 00 00 E8 ?? ?? ?? ?? B2 01 48 8D 4C 24 30 E8 ?? ?? ?? ?? B2 0D 48 8D 4C 24 30 E8 ?? ?? ?? ?? 8B 47 08 48 8D 54 24 78 41 B8 04 00 00 00 89 44 24 78 48 8D 4C 24 30 E8 ?? ?? ?? ?? 41 B8 04 00 00 00 C7 44 24 78 4B 98 38 7E 48 8D 54 24 78 48 8D 4C 24 30 E8 ?? ?? ?? ?? 41 B8 04 00 00 00"
+
+[0x2C8978DE]
+name = "KeyValues_FindOrCreateKey"
+rva = "0xd143d0"
+sig = "48 8B C4 4C 89 48 20 57 48 81 EC 60 04 00 00 48 89 70 E8"
+
+[0x887229EE]
+name = "KeyValues_ReadAsBinary"
+rva = "0xd17160"
+sig = "48 8B C4 44 88 48 20 55 48 8D 68 A9 48 81 EC C0 00 00 00"
+
+[0x857B9A48]
+name = "CUtlBufferEnsureCapacity"
+rva = "0xce56c0"
+sig = "48 89 5C 24 08 57 48 83 EC 30 48 8B D9 8D 7A 01"
+
+[0xDA246227]
+name = "CUtlMemoryGrow"
+rva = "0xe8400"
+sig = "48 89 5C 24 10 57 48 83 EC 30 8B FA 48 8B D9 8B 51 08 8B 49 10 8D 04 39 3B C2 0F ?? ?? ?? ?? ?? 2B CA 48 89 74 24 40 8D 34 39 85 F6 7F ?? 4C 8D 05 ?? ?? ?? ?? BA E6 01 00 00 48 8D 0D ?? ?? ?? ?? FF 15 ?? ?? ?? ?? 84 C0 75 ?? FF 15 ?? ?? ?? ?? 84 C0 74 ?? CC 8B 53 0C 8B C2 C1 E8 1F 84 C0 74 ?? 4C 8D 05 ?? ?? ?? ?? BA EB 01 00 00 48 8D 0D ?? ?? ?? ?? FF 15 ?? ?? ?? ?? 84 C0 0F ?? ?? ?? ?? ?? FF 15 ?? ?? ?? ?? 84 C0 74 ?? CC 48 8B 74 24 40 01 7B 10 48 8B 5C 24 48 48 83 C4 30 5F C3 8B 4B 08 41 B9 04 00 00 00 44 8D 04 31 E8 ?? ?? ?? ?? 4C 8B 13 89 43 08 48 63 D0 48 8B 05 ?? ?? ?? ?? 48 C1 E2 02"
+
+[0xE993DE6C]
+name = "PchMsgNameFromEMsg"
+rva = "0xd121f0"
+sig = "48 89 5C 24 08 57 48 83 EC 20 8B D9 E8 ?? ?? ?? ??"
+
+[0x7A215620]
+name = "BuildSpawnEnvBlock"
+rva = "0x9e75d0"
+sig = "4C 89 4C 24 20 4C 89 44 24 18 48 89 54 24 10 48 89 4C 24 08 55 53 56 57 41 54 41 55 41 56 41 57 48 8D AC 24 B8 FE FF FF"
+
+[0x1B13852C]
+name = "SpawnProcess"
+rva = "0x9e8c30"
+sig = "48 89 5C 24 18 4C 89 4C 24 20 48 89 54 24 10 55 56 57 41 54 41 55 41 56 41 57 48 8D AC 24 30 FF FF FF"
