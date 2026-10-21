@@ -1,0 +1,44 @@
+# Made by migo3 at 21/10/2026 22:54:32 for Steam 1792618285 (stable) build
+# forge generated sha256=253e0a11a4415b38c78a42f7bdd6ecc426455f06c1ba6453a48090df3142dbbc
+
+[IClientUser]
+interface_id = 1
+
+[IClientUser.BUpdateAppOwnershipTicket]
+funcHash = "0xCEDD4F18"
+wrapper_rva = "0x74BFE0"
+
+[IClientUser.GetAppOwnershipTicketExtendedData]
+funcHash = "0xC7E71245"
+fencepost = "0xC8449840"
+argc = 2
+wrapper_rva = "0x76AAD0"
+
+[IClientUser.GetEncryptedAppTicket]
+funcHash = "0xE0468CB4"
+fencepost = "0xE0B80200"
+argc = 1
+wrapper_rva = "0x77D660"
+
+[IClientUser.GetSteamID]
+funcHash = "0xD6FC3200"
+fencepost = "0xD7058CA5"
+argc = 0
+wrapper_rva = "0x7A23C0"
+
+[IClientUser.RequestEncryptedAppTicket]
+funcHash = "0x25D6BB1D"
+fencepost = "0x2646B663"
+argc = 2
+wrapper_rva = "0x8612E0"
+
+[IClientUtils]
+interface_id = 4
+
+[IClientUtils.GetAPICallResult]
+funcHash = "0x2D3D3947"
+wrapper_rva = "0x765670"
+
+[IClientUtils.GetAppID]
+funcHash = "0x09607EC4"
+wrapper_rva = "0x769830"
