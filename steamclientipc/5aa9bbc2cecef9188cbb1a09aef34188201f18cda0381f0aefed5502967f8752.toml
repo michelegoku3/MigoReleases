@@ -1,0 +1,18 @@
+# Made by migo3 at 29/10/2026 02:02:15 for Steam 1793235415 (beta) build
+# forge generated sha256=5aa9bbc2cecef9188cbb1a09aef34188201f18cda0381f0aefed5502967f8752
+
+[IClientUser]
+interface_id = 1
+
+[IClientUser.BUpdateAppOwnershipTicket]
+funcHash = "0xCEDD4F18"
+wrapper_rva = "0x762860"
+
+[IClientUser.GetSteamID]
+funcHash = "0xD6FC3200"
+fencepost = "0xD7058CA5"
+argc = 0
+wrapper_rva = "0x7B8AC0"
+
+[IClientUtils]
+interface_id = 4
