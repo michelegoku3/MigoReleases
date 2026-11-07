@@ -1,0 +1,50 @@
+# Made by migo3 at 07/11/2026 04:02:25 for Steam 1794022194 (beta) build
+# forge generated sha256=1610ec6a325e009d83b7a9b4537d0575d8ab8f8714c471260ca7f71fffd57c27
+
+[IClientUser]
+interface_id = 1
+
+[IClientUser.GetAppOwnershipTicketExtendedData]
+funcHash = "0xC7E71244"
+fencepost = "0xC844D740"
+argc = 2
+wrapper_rva = "0x781480"
+used = true
+
+[IClientUser.GetEncryptedAppTicket]
+funcHash = "0xE0468CB5"
+fencepost = "0xE0B84102"
+argc = 1
+wrapper_rva = "0x794010"
+used = true
+
+[IClientUser.GetSteamID]
+funcHash = "0xD6FC3200"
+fencepost = "0xD7058CA5"
+argc = 0
+wrapper_rva = "0x7B8D70"
+used = true
+
+[IClientUser.RequestEncryptedAppTicket]
+funcHash = "0x25D6BB1C"
+fencepost = "0x2646F563"
+argc = 2
+wrapper_rva = "0x884D90"
+used = true
+
+[IClientUtils]
+interface_id = 4
+
+[IClientUtils.GetAPICallResult]
+funcHash = "0x2D3D3979"
+fencepost = "0x2EDFDD1A"
+argc = 3
+wrapper_rva = "0x77C020"
+used = true
+
+[IClientUtils.GetAppID]
+funcHash = "0x09607EC2"
+fencepost = "0x0AFEF352"
+argc = 0
+wrapper_rva = "0x7801E0"
+used = true
